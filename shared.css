@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.main-header {
+    width: 100%;
+    background-color: rgba(125, 230, 125, 0.712);
+    padding: 8px 16px;
+    border-bottom: 1px solid black;
+}
+
+.main-header__brand {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 75px);
+    vertical-align: middle;
+}
+
+.main-nav__list {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0  16px;
+}
+
+.main-nav__item  a {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 0;
+    transition: all .4s;
+}
+
+.main-nav__item  a:hover,
+.main-nav__item  a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background-color: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all .4s;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:hover {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+
+
+.main-footer {
+    background: #000;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.main-footer__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-footer__link a {
+    color: #fff;
+    text-decoration: none;
+    transition: color .2s;
+    cursor: pointer;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active {
+    color: #ccc;
+}
+
+.button {
+    background: #0e4f1f;
+    color: #fff;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s;
+}
+.button:focus {
+    outline: none;
+}
+
+.button:hover,
+.button:active {
+    background: #fff;
+    color: #0e4f1f;
+    transform: scale(1.01);
+}   
