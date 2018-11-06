@@ -12,6 +12,7 @@ body {
     width: 100%;
     height: 528px; 
     padding: 10px;
+    text-align: center;
 }
 
 .section-title {
@@ -23,6 +24,8 @@ body {
     color: white;
     font-family: 'Anton', sans-serif;
     text-align: center;
+    cursor: default;
+    display: inline-block;
 }
 
 .plan {
@@ -52,6 +55,7 @@ body {
 
 .plan__title {
     color: #0e4f1f;
+    cursor: default;
 }
 
 .plan__price{
@@ -77,6 +81,72 @@ body {
     margin: 8px 0;
 }
 
+.button {
+    background: #0e4f1f;
+    color: #fff;
+    font: inherit;
+    border: 1.5px solid #0e4f1f;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s;
+}
+.button:focus {
+    outline: none;
+}
+
+.button:hover,
+.button:active {
+    background: #fff;
+    color: #0e4f1f;
+    transform: scale(1.01);
+    
+} 
+
+#key-features {
+    background: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: #fff;
+    margin: 32px;
+}
+
+.key-features__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature__item {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.key-feature__image {
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+/* .key-feature__description {
+
+} */
 
 /* h1 {
     font-family: sans-serif;
@@ -146,3 +216,4 @@ body {
     background: white;
     border: none;
 }
+
