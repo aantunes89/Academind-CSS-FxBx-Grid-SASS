@@ -7,8 +7,9 @@
     <title>uHost</title>
     <link rel="shortcut icon" href="favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    
     <link rel="stylesheet" href="../shared.css">
-
+    <link rel="stylesheet" href="packages.css">
 </head>
 
 <body>
@@ -34,28 +35,32 @@
     </header>
 
     <main>
-        <section>
+        <section class="plan" id="plus">
             <a href="#">
-                <h1>Our PLUS Plan</h1>
-                <h2>The most popular choice of our customers.</h2>
-                <p>Benefit from increased storage and faster support to ensure that your mission-critical data and applications
+                <h1 class="plan__main-title">Our PLUS Plan</h1>
+                <h2 class="plan__subtitle">The most popular choice of our customers.</h2>
+                <p class="plan__description">Benefit from increased storage and faster support to ensure that your mission-critical data and applications
                     are always available!</p>
             </a>
         </section>
-        <section>
+
+        <section class="plan" id="free">
             <a href="#">
-                <h1>Our FREE Plan</h1>
-                <h2>An extremely solid start into our hosting world.</h2>
-                <p>Get started immediately at zero cost!</p>
+                <h1 class="plan__main-title">Our FREE Plan</h1>
+                <h2 class="plan__subtitle">An extremely solid start into our hosting world.</h2>
+                <p class="plan__description">Get started immediately at zero cost!</p>
             </a>
         </section>
-        <section>
-            <a href="#">
-                <h1>Our PREMIUM Plan</h1>
-                <h2>All your enterprise needs. Instant support, guaranteed uptime. </h2>
-                <p>The best solution for small to large enterprises. Because hosting shouldn't be in the way!</p>
-            </a>
-        </section>
+        
+        <div class="clearfix">
+            <section class="plan" id="premium">
+                <a href="#">
+                    <h1 class="plan__main-title">Our PREMIUM Plan</h1>
+                    <h2 class="plan__subtitle">All your enterprise needs. Instant support, guaranteed uptime. </h2>
+                    <p class="plan__description">The best solution for small to large enterprises. Because hosting shouldn't be in the way!</p>
+                </a>
+            </section>
+        </div>
     </main>
     <footer class="main-footer">
         <nav>

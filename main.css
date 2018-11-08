@@ -20,6 +20,12 @@
     display: inline-block;
 }
 
+.plans__list {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .plan {
    background-color: #d5ffdc;
    text-align: center;
@@ -29,6 +35,13 @@
    width: 30%;
    vertical-align: middle;
    border-radius: 3px;
+   transition: all .3s;
+   cursor: pointer;
+}
+
+.plan:hover,
+.plan:active {
+    transform: translateY(-1%);
 }
 
 .plan--highlighted {
