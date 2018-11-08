@@ -7,11 +7,18 @@ body {
     margin: 0;
 }
 
+/* html {
+    margin-top: 40px;
+} */
+
 .main-header {
     width: 100%;
-    background-color: rgba(125, 230, 125, 0.712);
+    background-color: #2ddf5c;
     padding: 8px 16px;
     border-bottom: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .main-header__brand {
