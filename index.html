@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>uHost</title>
     <link rel="shortcut icon" href="favicon.png">
@@ -14,6 +15,7 @@
 
 <body>
     <div class="backdrop"></div>
+
     <div class="modal">
         <h1 class="modal__title">Do you want to continue?</h1>
         <div class="modal__actions">
@@ -21,12 +23,21 @@
             <button class="modal__action modal__action--negative" type="button">No!</button>
         </div>
     </div>
+
     <header class="main-header">
+
         <div>
+            <button class="toggle-button">
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+                <span class="toggle-button__bar"></span>
+            </button>
+
             <a href="index.html" class="main-header__brand">
                 <img src="images/uhost-icon.png" alt="u-Host logo">
             </a>
         </div>
+
         <nav class="main-nav">
             <ul class="main-nav__list">
                 <li class="main-nav__item">
@@ -40,12 +51,29 @@
                 </li>
             </ul>
         </nav>
+
     </header>
+    
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a href="packages/index.html">Packages</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="customers/inde">Customers</a>
+            </li>
+            <li class="mobile-nav__item mobile-nav__item--cta">
+                <a href="start-hosting/index.html">Start Hosting</a>
+            </li>
+        </ul>
+    </nav>
 
     <main>
+
         <section id="product-overview">
             <h1>Get the freedom you deserve.</h1>
         </section>
+
         <section id="plans">
             <h1 class="section-title">Choose Your Plan</h1>
             <div class="plans__list">
@@ -63,6 +91,7 @@
                         <button class="button">CHOOSE PLAN</button>
                     </div>
                 </article>
+
                 <article class="plan plan--highlighted">
                     <h1 class="plan__annotation">RECOMMENDED</h1>
                     <h1 class="plan__title">PLUS</h1>
@@ -78,6 +107,7 @@
                         <button class="button">CHOOSE PLAN</button>
                     </div>
                 </article >
+
                 <article class="plan">
                     <h1 class="plan__title">PREMIUM</h1>
                     <h2 class="plan__price">$99/month</h2>
@@ -94,6 +124,7 @@
                 </article>
             </div>
         </section>
+        
         <section id="key-features">
             <h1 class="section-title">Many Good Reasons to Stick Around</h1>
             <ul class="key-features__list">
@@ -187,11 +218,11 @@
                             <path style="fill:#56677E;" d="M432,248c-17.645,0-32-14.355-32-32c0-6.783,2.128-13.076,5.742-18.258  C397.444,203.53,392,213.138,392,224c0,17.645,14.355,32,32,32c10.862,0,20.471-5.444,26.258-13.742  C445.076,245.872,438.783,248,432,248z"
                             />
 
-                        </svg>
-  
+                        </svg> 
                     </div>
                     <p class="key-feature__description">3,857,000 Trusting Customers</p>
                 </li>
+
                 <li class="key-feature__item">
                     <div class="key-feature__image">
                         <svg viewBox="0 0 512 512">
@@ -242,6 +273,7 @@
                     </div>
                     <p class="key-feature__description">99.9995 Uptime Guarantee</p>
                 </li>
+
                 <li class="key-feature__item">
                     <div class="key-feature__image">
                         <svg viewBox="0 0 512 512">
@@ -283,6 +315,7 @@
                 </li>
             </ul>
         </section>
+
     </main>
     
     <footer class="main-footer">
