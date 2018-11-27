@@ -106,9 +106,9 @@ main {
         border-left: 4px solid #0e4f1f;
     }
 
-    .package:not(#premium) {
+    /* .package:not(#premium) {
         margin-bottom: 8rem;
-    }
+    } */
 
     #free {
         border-right: 4px solid #0e4f1f;
