@@ -61,6 +61,7 @@ main {
 
 .testimonial__text {
     margin: .2rem;
+    
 }
 
 @media (min-width: 40rem) {

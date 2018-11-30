@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "AnonymousPRO";
+    src: url("anonymousPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "AnonymousPRO";
+    src: url("anonymousPro-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
 main {
     padding-top: 2rem;
 }
@@ -36,7 +47,7 @@ main {
 
 .package__subtitle {
     color: #979797;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
 .package__description {
