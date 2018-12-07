@@ -29,6 +29,7 @@ main {
     margin: 1rem 0;
     transition: all .3s;
     position: relative;
+    overflow: hidden;
 }
 
 .package a { 
@@ -62,12 +63,16 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 1.2rem;
+    margin: 0;
     margin-left: .8rem;
     font-size: .8rem;
     background: #ff5454;
     color: #fff;
     padding: .5rem;
+    transform: rotate(45deg) translate(3.5rem, -1rem);
+    transform-origin: center;
+    width: 12rem;
+    text-align: center;
 }
 
 .clearfix {
@@ -110,9 +115,11 @@ main {
         margin-left: auto;
         margin-right: auto;
     }
+
+    
 }
 
-@media(min-width: 97.8rem) {
+@media(min-width: 80rem) {
     .package {
         border-left: 4px solid #0e4f1f;
     }
